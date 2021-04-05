@@ -14,9 +14,11 @@ class RemoteBrowser(WebBrowser):
         hub_url = os.getenv('HUB_URL')
         print("###########")
         print(hub_url)
-        print("###########")
         hub_url = str(hub_url)
-        if hub_url !='None':
+        len("Length" + hub_url)
+        print("###########")
+
+        if len(hub_url) > 25 :
             remote_url = hub_url
         self._remote: WebDriver = Remote(
             command_executor=remote_url, desired_capabilities=DesiredCapabilities.CHROME
