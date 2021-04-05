@@ -1,0 +1,9 @@
+--- 
+services: 
+  python-tests-docker: 
+    volumes:
+      - /dev/urandom:/dev/random
+    environment: 
+      HUB_URL: http://${HUB_URL}:4444/wd/hub
+    image: "python-tests-docker"
+version: "3.8"
