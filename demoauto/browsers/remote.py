@@ -12,6 +12,9 @@ class RemoteBrowser(WebBrowser):
 
     def __init__(self, remote_url: str = "http://localhost:4444/wd/hub") -> None:
         hub_url = os.getenv('HUB_URL')
+        print("###########")
+        print(hub_url)
+        print("###########")
         hub_url = str(hub_url)
         if hub_url !='None':
             remote_url = hub_url
