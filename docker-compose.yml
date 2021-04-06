@@ -1,6 +1,6 @@
 --- 
 services: 
-  python-tests-docker: 
+  python_tests_docker: 
     volumes:
       - /dev/urandom:/dev/random
     environment: 
