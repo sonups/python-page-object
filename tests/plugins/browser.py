@@ -11,6 +11,8 @@ def browser() -> WebBrowser:
         browser = ChromeWindows()
     elif(config.global_data['os'] == 'linux'):
         browser = ChromeLinux()
+    elif(config.global_data['os'] == 'remote'):
+        browser = RemoteBrowser()
     yield browser
     browser.driver().close()
 
