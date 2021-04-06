@@ -1,4 +1,4 @@
 ---
 configuration:
-  os: "remote"
+  os: "linux"
   browser: "chrome"
