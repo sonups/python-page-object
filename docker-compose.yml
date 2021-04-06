@@ -5,6 +5,6 @@ services:
       - /dev/urandom:/dev/random
     environment: 
       HUB_URL: http://${HUB_URL}:4444/wd/hub
-    image: "python-tests-docker"
+    image: "sps89/python-tests-docker"
     shm_size: 2G
 version: "3.8"
