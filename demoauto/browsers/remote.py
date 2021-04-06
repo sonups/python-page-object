@@ -18,7 +18,7 @@ class RemoteBrowser(WebBrowser):
         len("Length" + hub_url)
         print("###########")
 
-        if len(hub_url) > 25 :
+        if len(hub_url) > 14 :
             remote_url = hub_url
         self._remote: WebDriver = Remote(
             command_executor=remote_url, desired_capabilities=DesiredCapabilities.CHROME
