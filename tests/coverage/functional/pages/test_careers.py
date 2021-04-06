@@ -1,8 +1,9 @@
 from tests.coverage.markers import smoke
 from demoauto.pages.careers import CareersPage
-print("pass1")
+from demoauto.configuration.base_configuration import BaseConfiguration
+
 @smoke
-def test_join_us(careers_page: CareersPage) -> None:
+def test_join_us(base_config: BaseConfiguration, careers_page: CareersPage) -> None:
     assert careers_page.join_us().is_displayed()
 
 

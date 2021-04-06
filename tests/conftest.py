@@ -6,4 +6,5 @@ pytest_plugins = (
     "tests.plugins.input",
     "tests.plugins.handler",
     "tests.plugins.locators",
+    "tests.plugins.configuration",
 )

@@ -2,12 +2,9 @@ from typing import Callable
 import pytest
 from _pytest.fixtures import SubRequest
 from demoauto.browsers import WebBrowser, WebBrowserError
-from demoauto.browsers.chrome import Chrome
 from demoauto.browsers.safari import Safari
 from demoauto.browsers.firefox import FireFox
 from demoauto.browsers.remote import WebBrowser, RemoteBrowser
-
-
 
 
 def browser(request: SubRequest) -> Callable[[str], WebBrowser]:
