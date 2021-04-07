@@ -2,6 +2,7 @@ import pytest
 
 from demoauto.browsers.remote import WebBrowser, RemoteBrowser
 from demoauto.browsers.chrome import WebBrowser, ChromeWindows, ChromeLinux
+from demoauto.browsers.firefox import FirefoxLinux
 import demoauto.configuration.base_configuration as config
 
 
@@ -11,7 +12,10 @@ def browser() -> WebBrowser:
     if config.global_data['os'] == 'windows':
         browser = ChromeWindows()
     elif config.global_data['os'] == 'linux':
-        browser = ChromeLinux()
+        if config.global_data['browser'] == 'chrome':
+            browser = ChromeLinux()
+        elif config.global_data['browser'] == 'firefox':
+            browser = FirefoxLinux()
     elif config.global_data['os'] == 'remote':
         browser = RemoteBrowser()
     yield browser
