@@ -47,6 +47,12 @@ Open `test-report.html` file to see detailed testing report e.g:
 
 ![Screenshot](demoauto/image/report.png)
 
+## Other repositories
+python-selenium-hub-docker-dev 
+> https://www.xeneta.com/demo 
+
+xeneta-jenkins
+> https://github.com/sonups/xeneta-jenkins
 
 ### Meta
 Author – Sonu Sadasivan.
