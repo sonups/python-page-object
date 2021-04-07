@@ -36,15 +36,16 @@ Open the url http://40.80.88.6/
 
 
 
-## Test report
-
-Then please open `test-report.html` file to see detailed testing report e.g:
-
-![Screenshot](demoauto/image/report.png)
 
 ## Allure report
 
 ![Screenshot](demoauto/image/allure.png)
+
+## Local report in test-report.html
+
+Open `test-report.html` file to see detailed testing report e.g:
+
+![Screenshot](demoauto/image/report.png)
 
 
 ### Meta
