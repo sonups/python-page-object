@@ -2,7 +2,7 @@
 
 
 
-# Python page object model (PyPOM)
+# Python page object model 
 
 > Automated tests are demonstrated on 
 > https://www.xeneta.com/demo 
