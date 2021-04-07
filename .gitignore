@@ -19,7 +19,7 @@ test-report.html
 assets/
 .coverage
 report/
-reports/
+
 
 # browser trash
 geckodriver.log
