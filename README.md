@@ -19,12 +19,11 @@
 ## Quick start
 From the root directory of your shell follow the below steps:
 
-1. Clone the repository
-2. Configure `git` for the first time after cloning with your `name` and `email`
-3. `pip install -r requirements.txt` to install all project dependenciesc
-4. In Linux run below bash script to change permission of webdriver executable
+1. Clone the repository `https://github.com/sonups/python-page-object`
+2. `pip install -r requirements.txt` to install all project dependenciesc
+3. In Linux run below bash script to change permission of webdriver executable
 >	`sh linux_setup.sh`
-5. to run tests
+4. to run tests
 >  	`pytest -m smoke`
 
 ## To run tests without requiring any setup, please use jenkins hosted in azure vm
