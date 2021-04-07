@@ -62,7 +62,7 @@ Author – Sonu Sadasivan.
 
 
 You can reach out me at:
-* [sonu.sadasivan@gmail.com](vyahello@gmail.com)
+* [sonu.sadasivan@gmail.com](sonu.sadasivan@gmail.com)
 * [https://github.com/sonups](https://github.com/sonups)
 * [https://www.linkedin.com/in/spnups](https://www.linkedin.com/in/sonups)
 
