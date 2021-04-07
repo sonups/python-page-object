@@ -53,7 +53,7 @@ Open `test-report.html` file to see detailed testing report e.g:
 
 ## Other repositories
 python-selenium-hub-docker-dev 
-> https://www.xeneta.com/demo 
+> https://github.com/sonups/python-selenium-hub-docker-dev
 
 xeneta-jenkins
 > https://github.com/sonups/xeneta-jenkins
