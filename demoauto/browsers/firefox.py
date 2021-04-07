@@ -24,7 +24,7 @@ class FirefoxLinux(WebBrowser):
 
     def __init__(self) -> None:
         print("sys-path" + sys.path[0])
-        self._chrome: WebDriver = webdriver.Chrome(sys.path[0] + '/driver_executable/geckodriver')
+        self._chrome: WebDriver = webdriver.Firefox(sys.path[0] + '/driver_executable/geckodriver')
 
     def driver(self) -> Driver:
         return WebDriverOf(self._chrome)
