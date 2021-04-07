@@ -47,6 +47,10 @@ Open `test-report.html` file to see detailed testing report e.g:
 
 ![Screenshot](demoauto/image/report.png)
 
+## Link to overview PPT document
+
+> https://github.com/sonups/python-page-object/blob/master/xeneta-ppt.pptx
+
 ## Other repositories
 python-selenium-hub-docker-dev 
 > https://www.xeneta.com/demo 
