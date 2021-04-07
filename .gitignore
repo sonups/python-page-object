@@ -22,3 +22,6 @@ report/
 
 # browser trash
 geckodriver.log
+
+tests/coverage/functional/pages/reports/
+allure-results/
