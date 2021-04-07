@@ -1,0 +1,2 @@
+chmod 777 driver_executable/chromedriver
+chmod 777 driver_executable/geckodriver
