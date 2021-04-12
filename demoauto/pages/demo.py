@@ -2,7 +2,7 @@ from demoauto.browsers import WebBrowser
 from demoauto.driver.driver import Driver
 from demoauto.map.elements import Element
 from demoauto.map.handlers import HandlerBy, WebHandlerBy
-from demoauto.locators.header import HeaderLocators as HP_Locators
+from demoauto.locators.demo import DemoLocators as HP_Locators
 from demoauto.pages import Page
 from demoauto.pages.base import BasePage
 from demoauto.map.urls import DemoPageUrl, Url
@@ -26,7 +26,7 @@ class DemoPage(Page):
         self._page.close()
 
     def schedule_now(self) -> Element:
-        return self.driver().find_element(self._by.xpath(), self._hp_locators.our_customers)
+        return self.driver().find_element(self._by.xpath(), self._hp_locators.schedule_now)
 
     def platform(self) -> Element:
         return self.driver().find_element(self._by.xpath(), self._hp_locators.platform)
